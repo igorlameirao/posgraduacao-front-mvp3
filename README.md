@@ -8,3 +8,23 @@ Foi utilizado alguns Bibliotecas e FrameWorks para desenvolvimento: Axios, chakr
 
 - Para rodar a aplicação, devemos rodar o seguinte comando "yarn dev" ou "npm run dev".
 
+
+
+API Externa:
+Neste projeto, estamos com uma integração com API externa e totalmente gratuita com o "https://viacep.com.br/". Nele nos temos um endpoint onde o usuário passará o CEP e seu retorno será do endereço referente ao CEP passado.
+
+URL: viacep.com.br/ws/{CEP}/json/
+
+retorno: 
+{
+    "cep": "01001-000",
+    "logradouro": "Praça da Sé",
+    "complemento": "lado ímpar",
+    "bairro": "Sé",
+    "localidade": "São Paulo",
+    "uf": "SP",
+    "ibge": "3550308",
+    "gia": "1004",
+    "ddd": "11",
+    "siafi": "7107"
+}
