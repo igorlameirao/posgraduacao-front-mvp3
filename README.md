@@ -28,3 +28,7 @@ retorno:
     "ddd": "11",
     "siafi": "7107"
 }
+
+para rodarmos a aplicação basta seguir os passos abaixo:
+1 - docker build -t nomeAplicacao . (docker build -t sprint3_front .)
+2 - docker run -p portaExposta:portaContainer nomeAplicacao (docker run -p 3333:3333 sprint3_front)
